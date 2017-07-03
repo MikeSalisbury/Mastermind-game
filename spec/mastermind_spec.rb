@@ -56,7 +56,7 @@ describe Code do
   describe "#[]" do
     it "should index into Code#pegs" do
       pegs = [blue_code[0], blue_code[1], blue_code[2], blue_code[3]]
-
+    
       expect(pegs).to eq(blue_code.pegs)
     end
   end
